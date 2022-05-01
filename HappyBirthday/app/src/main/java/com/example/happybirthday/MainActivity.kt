@@ -1,8 +1,7 @@
-package com.example.tiptime
+package com.example.happybirthday
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.happybirthday.R
 import com.example.happybirthday.databinding.ActivityMainBinding
 import java.text.NumberFormat
 
@@ -20,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculateTip() {
-        val stringInTextField = binding.costOfService.text.toString()
+        val stringInTextField = binding.costOfServiceEditText.text.toString()
         val cost = stringInTextField.toDoubleOrNull()
         if (cost == null) {
             binding.tipResult.text = ""
