@@ -8,3 +8,4 @@ The purpose is to get the certificate Associate Android Developer Certification 
 
 # Reference
 - The Github of [Google Developer Training ](https://github.com/google-developer-training)
+- [Google Android Guide ](https://developer.android.com/guide), you should learn from it at first time, do not study by other's blog such as medium or forum before you finish the section of specified area here.
